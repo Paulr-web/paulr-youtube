@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube</title>
+    <link rel="stylesheet" href="styles/videos.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/side-bar.css" />
+  </head>
+
+  <body>
+    <div class="Header">
+      <div class="Left-section">
+        <img class="hamburger-menu" src="images/hamburger-menu.svg" />
+        <img class="youtube-logo" src="images/youtube-logo.svg" />
+      </div>
+
+      <div class="Middle-section">
+        <input class="Search-bar" type="text" placeholder="Search" />
+
+        <button class="Search-button">
+          <img class="search-icon" src="images/search-icon.svg" />
+          <div class="Tooltip">Search</div>
+        </button>
+
+        <button class="Voice-button">
+          <img class="voice-search-icon" src="images/voice-search-icon.svg" />
+          <div class="Tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="Right-section">
+        <div class="upload-download-container">
+          <img class="upload-icon" src="images/upload-icon.svg" />
+          <div class="Tooltip">Create</div>
+        </div>
+
+        <img class="youtube-apps" src="images/youtube-apps.svg" />
+
+        <div class="Notification-icon-container">
+          <img class="notifications-icon" src="images/notifications-icon.svg" />
+          <div class="notification-count">3</div>
+        </div>
+
+        <img class="profile-image" src="images/Me3.jpeg" />
+      </div>
+    </div>
+
+    <div class="Side-bar">
+      <div class="side-bar-link">
+        <img src="images/home-icon.svg" />
+        <div>Home</div>
+      </div>
+      <div class="side-bar-link">
+        <img src="images/explore-icon.svg" />
+        <div>Explore</div>
+      </div>
+      <div class="side-bar-link">
+        <img src="images/subscriptions-icon.svg" />
+        <div>Subscription</div>
+      </div>
+      <div class="side-bar-link">
+        <img src="images/originals-icon.svg" />
+        <div>Originals</div>
+      </div>
+      <div class="side-bar-link">
+        <img src="images/youtube-music.svg" />
+        <div>Music</div>
+      </div>
+      <div class="side-bar-link">
+        <img src="images/library-icon.svg" />
+        <div>Library</div>
+      </div>
+    </div>
+
+    <div class="Video-grid js-video-grid"></div>
+
+    <script src="data/videos.js"></script>
+    <script src="scripts/youtube.js"></script>
+  </body>
+</html>
